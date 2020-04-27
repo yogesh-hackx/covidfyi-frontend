@@ -2,7 +2,7 @@ import SearchBar from "./SearchBar";
 
 const SearchContainer = (props) => (
   <>
-    <div className="heading">Kindly enter your State/UT name:</div>
+    <h5 className="search-heading">Enter State / Union Territory</h5>
     <div className="search-container">
       {/* <SearchBar getSelectedState={props.getSelectedState} focusHandler={props.focusHandler} /> */}
       <SearchBar getSelectedState={props.getSelectedState} />
