@@ -653,6 +653,13 @@ div.dropdown-navigation a.nav-item:hover {
   align-items: center;
 }
 
+.data-card .additional-info {
+    color: var(--gray);
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin-top: 0.8rem;
+}
+
 .data-card .data-source {
   color: var(--gray);
   font-size: 0.8rem;
@@ -793,6 +800,11 @@ a.social-media-link {
   left: 0;
   padding: 10px;
   min-height: 200px;
+  padding-bottom: 20rem;
+}
+
+.show-991 .search.expand ~ div > .information{
+  display: none;
 }
 
 @media only screen and (max-width: 1230px) {
